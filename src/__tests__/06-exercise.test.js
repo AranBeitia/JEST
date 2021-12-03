@@ -48,10 +48,11 @@ describe('06-exercises', () => {
 
 		expect.assertions(1)
 
-		// Finish the test
 		return fetchUserOK(userID).then((data) => {
 			expect(data).toEqual(expectedUser)
 		})
+
+		// Finish the test
 	})
 
 	/**
